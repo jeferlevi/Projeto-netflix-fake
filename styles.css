@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    color: white;
+}
+
+
+#container {
+    background: url("./img/net\ fosca.png");
+    padding-bottom: 140px;
+    
+    
+    
+    
+}
+
+
+#logo-netflix {
+    height: 100px;
+}
+
+#botao-entrar {
+    background-color: #ea0914;
+
+    font-size: 16px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 18px;
+    padding-left: 18px;
+    border: none;
+    border-radius: 3px;
+    float: right;
+    cursor: pointer;
+
+
+}
+
+#cabecalho {
+    padding: 28px 56px;
+}
+
+h1 {
+
+    text-align: center;
+    font-size: 70px;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#paragrafo-assista {
+    font-size: 24px;
+    text-align: center;
+    margin-top: 14px;
+}
+#paragrafo-pronto{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 26px;
+}
+input{
+    width: 500px;
+    padding: 10px;
+}
+#botao-email{
+    width: 250px;
+    background-color: #ea0914;
+    border: 0;
+    font-size: 30px;
+    cursor: pointer;
+}
+#botao-email:hover{
+    opacity: 0.6;
+
+}
+#formulario{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    height: 70px;
+    
+
+}
+#rodape{
+    background-color: black;
+    border-top: 10px solid #303030;
+    padding: 100px 0;
+}
+h2{
+    font-size: 50px;
+    text-align: center;
+}
+#botao-pergunta{
+    width: 700px;
+    background-color: #303030;
+    height: 70px;
+    border: 0;
+    font-size: 28px;
+    margin-top: 40px;
+    text-align: left;
+    padding: 0 20px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    cursor: pointer;
+
+}
+#fechar{
+    float: right;
+    margin-top: 8px;
+    transform: rotate(7deg);
+}
+#fechar-girar{
+    float: right;
+    margin-top: 8px;
+    transform: rotate(90deg);
+}
+#pergunta{
+    width: 700px;
+    background-color: #303030;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 3px;
+    padding: 20px;
+    display: none;
+
+}
+
